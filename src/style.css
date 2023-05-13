@@ -10,8 +10,8 @@
 */
 #whiter,
 .even-brighter {
-  /*color: #FF0000;*/
-  color: rgb(500 0 0);
+  color: #FF0000;
+  /*color: rgb(500 0 0); - same effect, bright yellow. And looks non-HDR red without brightness hack.*/
   filter: brightness(10);
   backdrop-filter: brightness(1);
 }
