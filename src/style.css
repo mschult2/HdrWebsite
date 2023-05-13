@@ -6,13 +6,17 @@
 @tailwind utilities;
 
 /**
- Whiter white hack
+ brighter color hack
 */
 #whiter,
 .even-brighter {
   color: color(display-p3 1 0 0);
   filter: brightness(10);
   backdrop-filter: brightness(1);
+}
+
+#notwhiter {
+  color: color(1 1 1);
 }
 
 body {
