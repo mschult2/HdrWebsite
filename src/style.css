@@ -17,6 +17,7 @@
 
 #notwhiter {
   color: #ffffff;
+  filter: brightness(1);
 }
 
 body {
