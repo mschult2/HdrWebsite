@@ -15,9 +15,8 @@
   backdrop-filter: brightness(1);
 }
 
-#whiter2,
-.even-brighter {
-  background-color: color(display-p3 0 0 1);
+#whiter2 {
+  background-color: color(display-p3 1 0 0);
   filter: brightness(10);
   backdrop-filter: brightness(1);
 }
