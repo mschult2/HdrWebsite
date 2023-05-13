@@ -14,3 +14,10 @@
   filter: brightness(10);
   backdrop-filter: brightness(1);
 }
+
+#whiter2,
+.even-brighter {
+  color: color(display-p3 0 0 1);
+  filter: brightness(10);
+  backdrop-filter: brightness(1);
+}
