@@ -15,11 +15,6 @@
   backdrop-filter: brightness(1);
 }
 
-#notwhiter {
-  color: #ffffff;
-  filter: brightness(1);
-}
-
 body {
   background-color: color(display-p3 1 1 1);
   backdrop-filter: brightness(10);
