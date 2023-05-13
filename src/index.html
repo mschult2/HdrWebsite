@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wanna see a whiter white?</title>
+  <title>Make an HDR Website</title>
   <meta name="description"
-    content="Wanna see a whiter white? CSS trick/bug to display a brighter white by exploiting browsers' HDR capability and Apple's EDR system" />
+    content="Want your website to blind people? CSS trick to display brighter colors on any webpage component. Mainly works on Apple products." />
   <link rel="stylesheet" href="./style.css" />
 </head>
 
@@ -60,7 +60,10 @@
         hack, the white color of the text becomes even brighter.
       </p>
       <pre
-        class="border break-words cursor-copy font-mono font-normal hyphens-none leading-relaxed my-4 overflow-x-auto px-5 py-4 rounded select-all text-sm whitespace-pre-line"><code>filter: brightness(10);
+        class="border break-words cursor-copy font-mono font-normal hyphens-none leading-relaxed my-4 overflow-x-auto px-5 py-4 rounded select-all text-sm whitespace-pre-line">
+        <code>
+        color: color(display-p3 1 0 0);
+        filter: brightness(10);
         backdrop-filter: brightness(1);
       </code></pre>
       <p class="py-1">
