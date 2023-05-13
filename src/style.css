@@ -21,10 +21,6 @@
   backdrop-filter: brightness(1);
 }
 
-body {
-  background-color: color(display-p3 1 1 1);
-  backdrop-filter: brightness(10);
-  height: 100%;
-}
+
 
 html { height: 100%; }
